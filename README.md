@@ -1,2 +1,18 @@
 # coderhash256
 Codificador hash 256 con Python
+
+Es importante tener conocimientos relacionados con la codificacion de la informacion, esto con la necesidad de mantener la confidencialidad de la misma, una de las caracteristicas imoortantes de la seguridad de la informacion que consiste en evitar que personas no autorizadas tengan acceso a la informacion que se resguarda en nuestros sistemas de informacion.
+
+Esta caracteristica de la confidencialidad es muy importante en el ambiente hibrido e hiperconectado en el que nos desenvolvemos actualmente, en vista de que estamos constantemente compartiendo información a traves de las plataformas de telecomunicaciones disponibles actualmente.
+
+El codigo hash es un algoritmo matematico que transforma cualquier bloque arbitrario de datos, puede ser una cadena de caracteres o datos de otra naturaleza, en una nueva cadena de caracteres de longitud fija, independientemente de la longitud del objeto de datos de entrada.
+
+Parametros de entrada
+Una cadena de caracteres ingresada por linea de comandos
+
+Salida
+Una cadena de caracteres equivalente a la codificacion hash de la cadena de caracteres recibida por la linea de comandos como entrada del programa
+
+Iniciamos el programa importando las librerias necesarias, en este caso
+from hashlib import sha3_256
+
