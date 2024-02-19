@@ -21,20 +21,30 @@ from hashlib import sha3_256
 
 A continuación se procede a crear la funcion encargada de realizar la conversion de la cadena de caracteres recibida como parametro a su correspondiente codigo hash
 
+~~~python
 def encriptar(frase):
     encriptado = sha3_256(frase.encode('utf-8')).hexdigest().upper()
     return ' '.join([encriptado[i:i + 4] for i in range(0, 64, 4)])
+~~~
 
 Se procede a solicitar al usuario una cadena de caracteres para codificar, de la siguiente manera
 
+~~~python
 print("Ingrese una cadena de caracteres para codificar en HASH")
 
 cadena = input()
+~~~
 
 Esta instruccion se puede codificar de manera resumida en una sola linea
 
+~~~python
 cadena = input(print("Ingrese una cadena de caracteres para codificar en HASH"))
+~~~
 
 Una vez recibido el parametro necesario, se hace el llamado de la funcion para realizar la correspondiente codificacion
 
+~~~python
 encriptar(cadena)
+~~~
+
+
