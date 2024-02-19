@@ -15,7 +15,9 @@ Una cadena de caracteres equivalente a la codificacion hash de la cadena de cara
 
 Iniciamos el programa importando las librerias necesarias, en este caso
 
+~~~python
 from hashlib import sha3_256
+~~~
 
 A continuación se procede a crear la funcion encargada de realizar la conversion de la cadena de caracteres recibida como parametro a su correspondiente codigo hash
 
