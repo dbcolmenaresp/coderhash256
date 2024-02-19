@@ -1,6 +1,8 @@
 # coderhash256
 Codificador hash 256 con Python
 
+https://es.wikipedia.org/wiki/Funci%C3%B3n_hash
+
 Es importante tener conocimientos relacionados con la codificacion de la informacion, esto con la necesidad de mantener la confidencialidad de la misma, una de las caracteristicas imoortantes de la seguridad de la informacion que consiste en evitar que personas no autorizadas tengan acceso a la informacion que se resguarda en nuestros sistemas de informacion.
 
 Esta caracteristica de la confidencialidad es muy importante en el ambiente hibrido e hiperconectado en el que nos desenvolvemos actualmente, en vista de que estamos constantemente compartiendo información a traves de las plataformas de telecomunicaciones disponibles actualmente.
