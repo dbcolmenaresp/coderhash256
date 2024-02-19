@@ -1,5 +1,5 @@
 # coderhash256
-Codificador [hash]([https://es.wikipedia.org/wiki/Funci%C3%B3n_hash]) 256 con Python
+Codificador [hash](https://es.wikipedia.org/wiki/Funci%C3%B3n_hash) 256 con Python
 
 
 
