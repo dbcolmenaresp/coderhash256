@@ -3,8 +3,10 @@
 from tkinter import *
 #import hash256
 
-def botonPresionado():
+def on_click(event):
     print("Boton presionado")
+    texto = entrada.get()
+    print(texto)
 
 # Creacion de la ventana principal
 window = Tk()
@@ -33,17 +35,21 @@ mensaje2.config(font=("Arial", 12))
 boton = Button(window, text = "Codificar")
 boton.config(font=("Arial", 12))
 
+# Mostrar boton
+boton.grid(row=3, column=0)
+
 # Accion del boton
-boton.config(command=botonPresionado)
+boton.bind("<Button 1>", on_click)
 
 # Mostrar etiquetas
 mensaje1.grid(row=0, column=0)
 mensaje2.grid(row=1, column=0)
 
-#
+# Crear caja de ingreso de datos
+entrada = Entry(window)
 
-# Mostrar boton
-boton.grid(row=3, column=0)
+# Mostrar caja de ingreso de datos
+entrada.grid(row=2, column=0)
 
 # Bucle de ejecucion de la ventana
 window.mainloop()
