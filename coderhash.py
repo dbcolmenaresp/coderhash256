@@ -3,6 +3,9 @@
 from tkinter import *
 #import hash256
 
+def botonPresionado():
+    print("Boton presionado")
+
 # Creacion de la ventana principal
 window = Tk()
 
@@ -26,10 +29,21 @@ mensaje2 = Label(window, text="Ingrese una cadena de caracteres para codificarla
 mensaje1.config(font=("Arial", 14))
 mensaje2.config(font=("Arial", 12))
 
+# Creacion de boton de accion
+boton = Button(window, text = "Codificar")
+boton.config(font=("Arial", 12))
+
+# Accion del boton
+boton.config(command=botonPresionado)
+
 # Mostrar etiquetas
 mensaje1.grid(row=0, column=0)
 mensaje2.grid(row=1, column=0)
-#mensaje1.pack()
-#mensaje2.pack()
+
+#
+
+# Mostrar boton
+boton.grid(row=3, column=0)
+
 # Bucle de ejecucion de la ventana
 window.mainloop()
